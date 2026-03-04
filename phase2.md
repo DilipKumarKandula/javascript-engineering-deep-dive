@@ -210,11 +210,6 @@ console.log("C");
 
 Answer with explanation.
 
-Excellent 👍
-Now we move to the next critical piece.
-
----
-
 ## PHASE 2 – TOPIC 2 Callback Queue (Macrotask Queue)
 
 ---
@@ -405,13 +400,6 @@ console.log("4");
 ```
 
 Explain why.
-
-After that, I will ask:
-
-Is this clear, or should I explain it another way?
-
-Good 🔥
-We go deep now. No shallow learning.
 
 ---
 
@@ -903,11 +891,6 @@ Predict exact output order.
 Think deeply:
 Executor timing vs .then timing.
 
-Good 👍
-Now we move to the most misunderstood but most used feature.
-
----
-
 PHASE 2 – TOPIC 5
 Async / Await Internals (Deep Understanding)
 
@@ -1145,17 +1128,6 @@ console.log("4");
 Predict exact output.
 
 Think carefully about microtask scheduling.
-
-After answering, I will confirm.
-
-Then we can move to:
-
-Node.js Event Loop Differences  
-or  
-Deep Combined Async Execution Simulation.
-
-Perfect 👍
-Now we go into something most developers never truly understand.
 
 ---
 
