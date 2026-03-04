@@ -1,4 +1,4 @@
-mmm## 1. JavaScript Engine
+## 1. JavaScript Engine
 
 ### WHAT IT IS
 
@@ -393,18 +393,18 @@ RangeError – recursion overflow
 
 EXAMPLES
 
-```js
 Example 1 – var behavior
 
+```js
 console.log(a);
 var a = 5;
+```
 
 Creation Phase:
 a = undefined
 
 Execution Phase:
 prints undefined
-```
 
 ---
 
@@ -413,13 +413,13 @@ Example 2 – let behavior
 ```js
 console.log(a);
 let a = 5;
+```
 
 Creation Phase:
 a allocated (TDZ)
 
 Execution Phase:
 ReferenceError
-```
 
 ---
 
@@ -1054,14 +1054,14 @@ Engine Components:
 
 Flow:
 
-Task arrives
-↓
-Push into Call Stack
-↓
-Execute completely
-↓
-Pop
-↓
+Task arrives  
+↓  
+Push into Call Stack  
+↓  
+Execute completely  
+↓  
+Pop  
+↓  
 Next task
 
 No parallel execution inside engine.
@@ -1103,16 +1103,16 @@ Engine never becomes multi-threaded.
 
 FLOW DIAGRAM
 
-JS Code
-↓
-Call Stack (Single Thread)
-↓
-If Async → Handed to Runtime
-↓
-Runtime Completes Task
-↓
-Callback Queued
-↓
+JS Code  
+↓  
+Call Stack (Single Thread)  
+↓  
+If Async → Handed to Runtime  
+↓  
+Runtime Completes Task  
+↓  
+Callback Queued  
+↓  
 Executed When Stack Empty
 
 ---
